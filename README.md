@@ -1,70 +1,31 @@
-# jsonhero README
+# Open in JSON Hero
 
-This is the README for your extension "jsonhero". After writing up a brief description, we recommend including the following sections.
+Easily open JSON files or selected JSON text in JSON Hero (jsonhero.io)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Open a JSON file using the command pallete:
 
-For example if there is an image subfolder under your extension project workspace:
+> Animation coming soon
 
-\!\[feature X\]\(images/feature-x.png\)
+Open a JSON file at a specific path using the command pallete:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+> Animation coming soon
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- `jsonhero.openInDefaultBrowser`: Open jsonhero.io in your default browser (true by default)
+- `jsonhero.customBrowser`: If `openInDefaultBrowser` is set to false, use this setting to set the browser to use. One of `chrome`, `firefox`, `edge`, or `safari`. Defaults to `chrome`.
+- `jsonhero.url`: Allows you to point to a different instance of JSON Hero (if you are running it locally or have deployed it yourself). Defaults to `https://jsonhero.io`
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Currently no known issues
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of the extension
