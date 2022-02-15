@@ -7,6 +7,10 @@
   "engines": {
     "vscode": "^1.64.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsonhero-io/vscode-extension.git"
+  },
   "publisher": "JSONHero",
   "categories": [
     "Other"
