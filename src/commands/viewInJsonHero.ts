@@ -28,6 +28,11 @@ export function viewInJsonHero(textEditor: TextEditor, edit: TextEditorEdit) {
 
     createNewDocument(title, content)
       .then((response) => {
+        if (!response.location) {
+          window.showErrorMessage("No location found in JSON Hero response.");
+          return;
+        }
+
         return openInBrowser(response.location);
       })
       .catch((error) => {
@@ -55,6 +60,11 @@ export function viewInJsonHeroAtPath(
 
     createNewDocument(title, content)
       .then((response) => {
+        if (!response.location) {
+          window.showErrorMessage("No location found in JSON Hero response.");
+          return;
+        }
+
         const url = new URL(response.location);
 
         const path = getPathAtSelection(text, textEditor.selection);
