@@ -8,11 +8,17 @@ Quickly view JSON in jsonhero.io
 
 Run command "**View in jsonhero.io**" to view the open file in jsonhero.io
 
-<p><img src="https://github.com/yzhang-gh/vscode-markdown/raw/master/images/gifs/on-enter-key.gif" alt="on enter key" width="214px"></p>
+<p><img src="https://github.com/jsonhero-io/vscode-extension/raw/main/assets/jsonhero-viewinjsonhero.gif" alt="View in jsonhero.io" width="1000px"></p>
 
-Open a JSON file at a specific path using the command pallete:
+You can also view the selected JSON only using the same command:
 
-> Animation coming soon
+<p><img src="https://github.com/jsonhero-io/vscode-extension/raw/main/assets/jsonhero-viewinjsonheroselection.gif" alt="View in jsonhero.io" width="1000px"></p>
+
+### View in jsonhero.io at path
+
+View the JSON file, opened at the location of the cursor (useful for opening onto the exact part of the document you want to preview)
+
+<p><img src="https://github.com/jsonhero-io/vscode-extension/raw/main/assets/jsonhero-viewinjsonheroatpath.gif" alt="View in jsonhero.io" width="1000px"></p>
 
 ## Extension Settings
 
@@ -28,6 +34,6 @@ Currently no known issues
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.0
 
 Initial release of the extension
