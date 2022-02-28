@@ -1,12 +1,14 @@
-# Open in JSON Hero
+# JSON Hero support for VS Code
 
-Easily open JSON files or selected JSON text in JSON Hero (jsonhero.io)
+Quickly view JSON in jsonhero.io
 
 ## Features
 
-Open a JSON file using the command pallete:
+### View in jsonhero.io
 
-> Animation coming soon
+Run command "**View in jsonhero.io**" to view the open file in jsonhero.io
+
+<p><img src="https://github.com/yzhang-gh/vscode-markdown/raw/master/images/gifs/on-enter-key.gif" alt="on enter key" width="214px"></p>
 
 Open a JSON file at a specific path using the command pallete:
 

@@ -1,8 +1,8 @@
 {
-  "name": "jsonhero",
-  "displayName": "JSON Hero",
-  "description": "View JSON in JSON Hero",
-  "version": "0.0.1",
+  "name": "jsonhero-vscode",
+  "displayName": "jsonhero.io tools for VS Code",
+  "description": "Quickly view JSON in jsonhero.io",
+  "version": "0.1.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.64.0"
@@ -28,16 +28,16 @@
     "commands": [
       {
         "command": "jsonhero.viewInJsonHero",
-        "title": "Open in JSON Hero"
+        "title": "View in jsonhero.io"
       },
       {
         "command": "jsonhero.viewInJsonHeroAtPath",
-        "title": "Open in JSON Hero at cursor"
+        "title": "View in jsonhero.io at path"
       }
     ],
     "configuration": {
       "type": "object",
-      "title": "JSON Hero",
+      "title": "JSONHero",
       "properties": {
         "jsonhero.url": {
           "type": "string",
