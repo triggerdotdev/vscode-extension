@@ -34,6 +34,10 @@ Currently no known issues
 
 ## Release Notes
 
+### 0.1.1 and 0.1.2
+
+Some copy and marketplace design tweaks
+
 ### 0.1.0
 
 Initial release of the extension
