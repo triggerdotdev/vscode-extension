@@ -4,7 +4,7 @@
   "description": "Quickly view JSON in jsonhero.io - a JSON tool to make JSON suck less",
   "icon": "assets/jsonhero-vscode.png",
   "galleryBanner": {
-    "color": "#f8e164",
+    "color": "#4d46dc",
     "theme": "dark"
   },
   "version": "0.1.0",
