@@ -90,11 +90,8 @@ export function viewInJsonHeroAtPath(
 async function openInBrowser(url: string): Promise<void> {
   const config = workspace.getConfiguration("jsonhero");
 
-  const urlToOpen = new URL(url);
-  urlToOpen.searchParams.append("utm_source", "vscode");
-
   if (config.get("openInDefaultBrowser")) {
-    await open(urlToOpen.href);
+    await open(url);
   } else {
     const browser = config.get("customBrowser") as
       | "chrome"
@@ -104,21 +101,21 @@ async function openInBrowser(url: string): Promise<void> {
       | undefined;
 
     if (!browser) {
-      await open(urlToOpen.href);
+      await open(url);
       return;
     }
 
     if (browser === "chrome") {
-      await open(urlToOpen.href, { app: { name: open.apps.chrome } });
+      await open(url, { app: { name: open.apps.chrome } });
     } else if (browser === "firefox") {
-      await open(urlToOpen.href, { app: { name: open.apps.firefox } });
+      await open(url, { app: { name: open.apps.firefox } });
     } else if (browser === "edge") {
-      await open(urlToOpen.href, { app: { name: open.apps.edge } });
+      await open(url, { app: { name: open.apps.edge } });
     } else if (browser === "safari") {
-      await open(urlToOpen.href, { app: { name: "Safari" } });
+      await open(url, { app: { name: "Safari" } });
     }
 
-    await open(urlToOpen.href, { app: { name: browser } });
+    await open(url, { app: { name: browser } });
   }
 }
 

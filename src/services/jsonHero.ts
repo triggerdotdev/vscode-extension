@@ -20,7 +20,10 @@ export async function createNewDocument(
   const config = workspace.getConfiguration("jsonhero");
   const baseURI = config.get("url");
 
-  const response = await fetch(`${baseURI}/api/create.json`, options);
+  const response = await fetch(
+    `${baseURI}/api/create.json?utm_source=vscode`,
+    options
+  );
   const jsonResponse = await response.json();
   return jsonResponse;
 }
