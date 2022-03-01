@@ -1,6 +1,6 @@
 # JSON Hero support for VS Code
 
-Quickly view JSON in jsonhero.io
+Quickly view JSON in jsonhero.io - a beautiful JSON viewer for the web.
 
 ## Features
 

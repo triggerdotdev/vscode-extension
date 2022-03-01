@@ -1,7 +1,7 @@
 {
   "name": "jsonhero-vscode",
   "displayName": "jsonhero.io tools for VS Code",
-  "description": "Quickly view JSON in jsonhero.io - a JSON tool to make JSON suck less",
+  "description": "Quickly view JSON in jsonhero.io - a beautiful JSON viewer for the web",
   "icon": "assets/jsonhero-vscode.png",
   "galleryBanner": {
     "color": "#4d46dc",
